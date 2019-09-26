@@ -1,0 +1,2 @@
+# LBUnderlineButton
+系统的下划线贴的太紧不太美观，LBUnderlineButton的下划线间距自定义，并且长度会根据title长短自适应。
