@@ -20,9 +20,8 @@
     self.title = @"LBUnderlineButton";
     LBUnderlineButton *btn = [[LBUnderlineButton alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.view.frame)-80)/2, 200, 80, 60)];
 //    btn.lineColor = [UIColor cyanColor];
-    btn.lineHeight = 2;
-    btn.lineSpacing = 5;
-    [btn setTitleColor:[UIColor magentaColor] forState:UIControlStateNormal];
+    btn.lineWidth = 25;
+
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateSelected];
     [btn setTitle:@"下划线" forState:UIControlStateNormal];
     [self.view addSubview:btn];
